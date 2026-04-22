@@ -1,3 +1,5 @@
+package org.example;
+
 enum Opcion {
     COCA(1,1500),
     SPRITE(2, 1500),

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="">
+    <list default="true" id="81d34b71-8efa-4f1d-b304-e91128b8eb3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,58 +12,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;NicoFSPD&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/NicoFSPD/TAREA-1-DOO.git&quot;,
-    &quot;accountId&quot;: &quot;823cfd21-b002-43aa-9405-0b4d04985bd0&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
   <component name="ProjectId" id="3CguPcMXsS6442pUGRXUfQGvJTZ" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17773438",
-    "project.structure.side.proportion": "0.2"
+    "last_opened_file_path": "/home/edu/Desktop/POO/TAREA-1-DOO"
   }
 }]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="" />
-      <created>1776820535552</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1776820535552</updated>
-    </task>
     <servers />
   </component>
 </project>
