@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d34b71-8efa-4f1d-b304-e91128b8eb3b" name="Changes" comment="Separacion de clases de codigo anterior PA3P" />
+    <list default="true" id="81d34b71-8efa-4f1d-b304-e91128b8eb3b" name="Changes" comment="Creacion de la clase &quot;Excepciones.java&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Excepciones.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1776864146407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creacion de la clase &quot;Excepciones.java&quot;">
+      <option name="closed" value="true" />
+      <created>1776864508376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776864508376</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Movilización de carpeta opcion" />
     <MESSAGE value="Separacion de clases de codigo anterior PA3P" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separacion de clases de codigo anterior PA3P" />
+    <MESSAGE value="Creacion de la clase &quot;Excepciones.java&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la clase &quot;Excepciones.java&quot;" />
   </component>
 </project>
