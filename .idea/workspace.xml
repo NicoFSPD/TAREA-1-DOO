@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d34b71-8efa-4f1d-b304-e91128b8eb3b" name="Changes" comment="Creacion de la clase &quot;Excepciones.java&quot;">
+    <list default="true" id="81d34b71-8efa-4f1d-b304-e91128b8eb3b" name="Changes" comment="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Excepciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,40 +17,41 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Cangliop84"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cangliop84&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NicoFSPD/TAREA-1-DOO.git",
-    "accountId": "2baa0cb7-b4f7-422c-abf3-baf67fce20db"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NicoFSPD/TAREA-1-DOO.git&quot;,
+    &quot;accountId&quot;: &quot;2baa0cb7-b4f7-422c-abf3-baf67fce20db&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3CguPcMXsS6442pUGRXUfQGvJTZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/edu/Desktop/POO/TAREA-1-DOO"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/edu/Desktop/POO/TAREA-1-DOO&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,13 +91,22 @@
       <option name="project" value="LOCAL" />
       <updated>1776864508376</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException">
+      <option name="closed" value="true" />
+      <created>1776865786404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776865786404</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Movilización de carpeta opcion" />
     <MESSAGE value="Separacion de clases de codigo anterior PA3P" />
     <MESSAGE value="Creacion de la clase &quot;Excepciones.java&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de la clase &quot;Excepciones.java&quot;" />
+    <MESSAGE value="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException" />
   </component>
 </project>
