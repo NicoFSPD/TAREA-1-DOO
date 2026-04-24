@@ -1,14 +1,21 @@
 package org.example;
-
+/**Clase de la maquina expendedora
+ * @author Eduardo Riveros
+ * @author Daniel Lopez
+ * @author Nicolas Silva
+ * @version version 1, 24 de Abril de 2026
+ */
 public class Expendedor{
-
+/**Contenedores para cada producto y para los vueltos*/
     private Deposito<Producto> coca;
     private Deposito<Producto> sprite;
     private Deposito<Producto> fanta;
     private Deposito<Producto> snickers;
     private Deposito<Producto> super8;
     private Deposito<Moneda> monVu;
-
+/**Constructor para inicializar los contenedores
+ * @param numProductos cantidad de productos por contenedor
+ * */
     public Expendedor(int numProductos){
 
         this.coca = new Deposito<>();
@@ -18,7 +25,6 @@ public class Expendedor{
         this.super8 = new Deposito<>();
         this.monVu = new Deposito<>();
 
-
         for (int i=0;i<numProductos;i++){
             coca.addElemento(new CocaCola(100+i));
             sprite.addElemento(new Sprite(200+i));
@@ -27,7 +33,11 @@ public class Expendedor{
             super8.addElemento(new Super8(500+1));
         }
     }
-
+/**Comprar un producto con una moneda y un numero de seleccion de producto
+ * @param m La moneda a utilizar
+ * @param cual El selector
+ * @return El producto de haber sido una compra exitosa, nada en caso contrario
+ * */
     public Producto comprarProducto(Moneda m, int cual){
         if (m == null){
             return null;
@@ -58,7 +68,9 @@ public class Expendedor{
             return null;
         }
     }
-
+/**Retirar el vuelto en caso de haber.
+ * @return Las monedas de vuelto que pueda haber
+ * */
     public Moneda getVuelto(){
         return monVu.getElemento();
     }
