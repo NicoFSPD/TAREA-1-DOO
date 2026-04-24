@@ -9,8 +9,6 @@ public class Expendedor{
     private Deposito<Producto> super8;
     private Deposito<Moneda> monVu;
 
-    private int precio;
-
     public Expendedor(int numProductos){
 
         this.coca = new Deposito<>();
