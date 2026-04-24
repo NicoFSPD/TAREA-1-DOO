@@ -12,7 +12,8 @@ enum Opcion {
     FANTA(3, 1500),
     SNICKERS(4, 1300),
     SUPER8(5, 1000);
-/** Dos valores int por producto: Su identificador (ID) y su precio*/
+/** Dos valores int por producto: Su identificador (ID) y su precio.
+ * Son publicas pero su condicion final ya las hace, en parte, no alterables*/
     public final int ID;
     public final int precio;
 /** El constructor le asignara a las variables, las constantes predefinidas*/
