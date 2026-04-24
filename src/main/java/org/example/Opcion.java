@@ -13,23 +13,11 @@ enum Opcion {
     SNICKERS(4, 1300),
     SUPER8(5, 1000);
 /** Dos valores int por producto: Su identificador (ID) y su precio*/
-    private final int ID;
-    private final int precio;
+    public final int ID;
+    public final int precio;
 /** El constructor le asignara a las variables, las constantes predefinidas*/
     Opcion(int ID, int precio){
         this.ID = ID;
         this.precio = precio;
-    }
-/** getter para el Identificador
- * @return Identificador "ID"
- */
-    public int getID() {
-        return ID;
-    }
-/** getter para el precio
- * @return precio "precio"
- */
-    public int getPrecio(){
-        return precio;
     }
 }
