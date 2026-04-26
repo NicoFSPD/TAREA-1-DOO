@@ -137,34 +137,51 @@ class Fanta extends Bebida{
 }
 
 
+//------------------------------- DULCES -----------------------------------------
 
-
-
-
-
-
-
-
-
-
-class CocaCola extends Bebida{
-    public CocaCola(int numSerie){
+/**
+ * Objeto Snicker
+ */
+class Snickers extends Dulce{
+    /**
+     * constructor de la clase Snickers
+     * * @param numSerie será el ID del snicker comprado
+     */
+    public Snickers(int numSerie){  //constructor
         super(numSerie);
     }
-
+    /**
+     * acción de consumir un snicker
+     * * @return string "snickers"
+     */
     @Override
-    public String beber(){
-        return "cocacola";
+    public String consumir(){
+        return "snickers";
     }
 }
 
-class Sprite extends Bebida{
-    public Sprite(int numSerie){
+/**
+ * Objeto Super8
+ */
+class Super8 extends Dulce{
+    /**
+     * constructor de la clase Super8
+     * * @param numSerie será el ID del super8 comprado
+     */
+    public Super8(int numSerie){    //constructor
         super(numSerie);
     }
-
+    /**
+     * acción de consumir la cocacola
+     * * @return string "cocacola"
+     */
     @Override
-    public String beber(){
-        return "sprite";
+    public String consumir(){
+        return "super8";
     }
 }
+
+
+
+
+
