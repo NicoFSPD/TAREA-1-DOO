@@ -65,6 +65,41 @@ abstract class Dulce extends Producto{         //subclase para las DULCES
 }
 
 
+//-----------------------------------------------------------------------------------
+//------------------------------- PRODUCTOS -----------------------------------------
+//-----------------------------------------------------------------------------------
+
+//------------------------------- BEBIDAS -----------------------------------------
+class CocaCola extends Bebida{
+    public CocaCola(int numSerie){
+        super(numSerie);
+    }
+    @Override
+    public String consumir(){
+        return "cocacola";
+    }
+}
+
+class Sprite extends Bebida{
+    public Sprite(int numSerie){
+        super(numSerie);
+    }
+    @Override
+    public String consumir(){
+        return "sprite";
+    }
+}
+
+class Fanta extends Bebida{
+    public Fanta(int numSerie){
+        super(numSerie);
+    }
+    @Override
+    public String consumir(){
+        return "fanta";
+    }
+}
+
 
 
 
