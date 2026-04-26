@@ -1,18 +1,44 @@
 package org.example;
 
-public abstract class Bebida{
+
+//------------------------------- SUPERCLASE -----------------------------------------
+
+/**
+ * clase abstracta de objeto que puede tomarse como bebida o dulce y sus respectivos tipos
+ * Define la propiedad serie y metodos que tendrán luego los productos disponibles.
+ */
+abstract class Producto{       //super clase
     private int serie;
 
-    public Bebida(int numSerie){
+    /**
+     * constructor de la clase producto
+     * * @param numSerie será el ID del producto en cuestión
+     */
+    public Producto(int numSerie){  //constructor
         this.serie = numSerie;
-    }
 
-    public int getSerie() {
+        /**
+         * Getter del ID del producto
+         * * @return numSerie será el ID del producto en cuestión
+         */
+    }
+    public int getSerie(){
         return this.serie;
     }
 
-    public abstract String beber();
+    /**
+     * metodo abstracto que "realiza la acción" de comer/beber el producto
+     * * @return retorna un string con el sonido o el nombre del producto consumido
+     */
+    public abstract String consumir();  //metodo abstracto
 }
+
+
+
+
+
+
+
 
 class CocaCola extends Bebida{
     public CocaCola(int numSerie){
