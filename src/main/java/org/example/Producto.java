@@ -70,30 +70,66 @@ abstract class Dulce extends Producto{         //subclase para las DULCES
 //-----------------------------------------------------------------------------------
 
 //------------------------------- BEBIDAS -----------------------------------------
+
+/**
+ * Objeto CocaCola
+ */
 class CocaCola extends Bebida{
+    /**
+     * constructor de la clase CocaCola
+     * * @param numSerie será el ID de la cocacola comprada
+     */
     public CocaCola(int numSerie){
         super(numSerie);
     }
+
+    /**
+     * acción de consumir la cocacola
+     * * @return string "cocacola"
+     */
     @Override
     public String consumir(){
         return "cocacola";
     }
 }
 
+/**
+ * Objeto Sprite
+ */
 class Sprite extends Bebida{
+
+    /**
+     * constructor de la clase Sprite
+     * * @param numSerie será el ID de la sprite comprada
+     */
     public Sprite(int numSerie){
         super(numSerie);
     }
+    /**
+     * acción de consumir la sprite
+     * * @return string "sprite"
+     */
     @Override
     public String consumir(){
         return "sprite";
     }
 }
 
+/**
+ * Objeto Fanta
+ */
 class Fanta extends Bebida{
+    /**
+     * constructor de la clase Fanta
+     * * @param numSerie será el ID de la Fanta comprada
+     */
     public Fanta(int numSerie){
         super(numSerie);
     }
+    /**
+     * acción de consumir la Fanta
+     * * @return string "fanta"
+     */
     @Override
     public String consumir(){
         return "fanta";
