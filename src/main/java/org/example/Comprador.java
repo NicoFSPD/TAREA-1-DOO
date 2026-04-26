@@ -10,7 +10,7 @@ public class Comprador{
         Bebida b = exp.comprarBebida(m, cualBebida);
 
         if (b != null){
-            this.sonido = b.beber();
+            this.sonido = b.consumir();
         } else {
             this.sonido = null;
         }
