@@ -34,6 +34,25 @@ abstract class Producto{       //super clase
 }
 
 
+//------------------------------- SUBCLASES -----------------------------------------
+
+abstract class Bebida extends Producto{        //subclase para las BEBIDAS
+    public Bebida(int numSerie){
+        super(numSerie);
+    }
+}
+abstract class Dulce extends Producto{         //subclase para las DULCES
+    public Dulce(int numSerie){
+        super(numSerie);
+    }
+}
+
+
+
+
+
+
+
 
 
 
