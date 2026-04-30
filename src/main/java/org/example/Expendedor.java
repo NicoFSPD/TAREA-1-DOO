@@ -38,9 +38,9 @@ public class Expendedor{
  * @param cual El selector
  * @return El producto de haber sido una compra exitosa, nada en caso contrario
  * */
-    public Producto comprarProducto(Moneda m, int cual){
+    public Producto comprarProducto(Moneda m, int cual) throws PagoIncorrectoException, PagoInsuficienteException{
         if (m == null){
-            return null;
+            throw new PagoIncorrectoException("No se ha insertado ninguna moneda\n");
         }
 
         int precio;
@@ -65,7 +65,7 @@ public class Expendedor{
             return D.getElemento();
         } else{
             monVu.addElemento(m);
-            return null;
+            throw new PagoInsuficienteException("El producto que quieres comprar tiene un valor mayor a lo que estás pagando");
         }
     }
 /**Retirar el vuelto en caso de haber.
