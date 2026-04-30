@@ -37,6 +37,8 @@ public class Expendedor{
  * @param m La moneda a utilizar
  * @param cual El selector
  * @return El producto de haber sido una compra exitosa, nada en caso contrario
+ * @throws PagoIncorrectoException si se quiere comprar un producto sin una moneda (null)
+ * @throws PagoInsuficienteException si el producto que se busca comprar tiene valor mayor al de la moneda ingresada
  * */
     public Producto comprarProducto(Moneda m, int cual) throws PagoIncorrectoException, PagoInsuficienteException{
         if (m == null){
