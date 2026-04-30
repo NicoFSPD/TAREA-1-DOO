@@ -21,7 +21,7 @@ public class Expendedor{
         }
     }
 
-    public Bebida comprarBebida(Moneda m, int cual){
+    public Bebida comprarBebida(Moneda m, int cual) throws NoHayProductoException {
         if (m == null){
             return null;
         }
@@ -52,7 +52,7 @@ public class Expendedor{
         }
     }
 
-    public Moneda getVuelto(){
+    public Moneda getVuelto() throws NoHayProductoException {
         return monVu.getElemento();
     }
 }
