@@ -36,34 +36,6 @@ abstract class Producto{       //super clase
 
 //------------------------------- SUBCLASES -----------------------------------------
 
-/**
- * clase abstracta que de los productos de tipo bebida
- * es heredada de la super clase producto
- */
-abstract class Bebida extends Producto{        //subclase para las BEBIDAS
-    /**
-     * constructor de la clase Bebida
-     * * @param numSerie será el ID de la bebida
-     */
-    public Bebida(int numSerie){
-        super(numSerie);
-    }
-}
-
-/**
- * clase abstracta que de los productos de tipo dulce
- * es heredada de la super clase producto
- */
-abstract class Dulce extends Producto{         //subclase para las DULCES
-    /**
-     * constructor de la clase Dulce
-     * * @param numSerie será el ID del dulce
-     */
-    public Dulce(int numSerie){
-        super(numSerie);
-    }
-}
-
 
 //-----------------------------------------------------------------------------------
 //------------------------------- PRODUCTOS -----------------------------------------
@@ -71,115 +43,8 @@ abstract class Dulce extends Producto{         //subclase para las DULCES
 
 //------------------------------- BEBIDAS -----------------------------------------
 
-/**
- * Objeto CocaCola
- */
-class CocaCola extends Bebida{
-    /**
-     * constructor de la clase CocaCola
-     * * @param numSerie será el ID de la cocacola comprada
-     */
-    public CocaCola(int numSerie){
-        super(numSerie);
-    }
-
-    /**
-     * acción de consumir la cocacola
-     * * @return string "cocacola"
-     */
-    @Override
-    public String consumir(){
-        return "cocacola";
-    }
-}
-
-/**
- * Objeto Sprite
- */
-class Sprite extends Bebida{
-
-    /**
-     * constructor de la clase Sprite
-     * * @param numSerie será el ID de la sprite comprada
-     */
-    public Sprite(int numSerie){
-        super(numSerie);
-    }
-    /**
-     * acción de consumir la sprite
-     * * @return string "sprite"
-     */
-    @Override
-    public String consumir(){
-        return "sprite";
-    }
-}
-
-/**
- * Objeto Fanta
- */
-class Fanta extends Bebida{
-    /**
-     * constructor de la clase Fanta
-     * * @param numSerie será el ID de la Fanta comprada
-     */
-    public Fanta(int numSerie){
-        super(numSerie);
-    }
-    /**
-     * acción de consumir la Fanta
-     * * @return string "fanta"
-     */
-    @Override
-    public String consumir(){
-        return "fanta";
-    }
-}
-
 
 //------------------------------- DULCES -----------------------------------------
-
-/**
- * Objeto Snicker
- */
-class Snickers extends Dulce{
-    /**
-     * constructor de la clase Snickers
-     * * @param numSerie será el ID del snicker comprado
-     */
-    public Snickers(int numSerie){  //constructor
-        super(numSerie);
-    }
-    /**
-     * acción de consumir un snicker
-     * * @return string "snickers"
-     */
-    @Override
-    public String consumir(){
-        return "snickers";
-    }
-}
-
-/**
- * Objeto Super8
- */
-class Super8 extends Dulce{
-    /**
-     * constructor de la clase Super8
-     * * @param numSerie será el ID del super8 comprado
-     */
-    public Super8(int numSerie){    //constructor
-        super(numSerie);
-    }
-    /**
-     * acción de consumir la cocacola
-     * * @return string "cocacola"
-     */
-    @Override
-    public String consumir(){
-        return "super8";
-    }
-}
 
 
 
