@@ -26,7 +26,7 @@ public class Comprador{
         return this.vuelto;
     }
 
-    public String queBebiste(){
+    public String queConsumiste(){
         return this.sonido;
     }
 }
