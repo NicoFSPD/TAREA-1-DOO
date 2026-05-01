@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16__Changes_.xml" beforeDir="false" />
+    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="fix: ordenar conflictos por archivos duplicados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,6 +61,9 @@
     &quot;accountId&quot;: &quot;823cfd21-b002-43aa-9405-0b4d04985bd0&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -92,6 +93,15 @@
       <option name="presentableId" value="Default" />
       <updated>1776820535552</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix: ordenar conflictos por archivos duplicados">
+      <option name="closed" value="true" />
+      <created>1777647716358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777647716358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: ordenar conflictos por archivos duplicados" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: ordenar conflictos por archivos duplicados" />
   </component>
 </project>
