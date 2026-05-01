@@ -40,7 +40,7 @@ public class Expendedor{
  * @throws PagoIncorrectoException si se quiere comprar un producto sin una moneda (null)
  * @throws PagoInsuficienteException si el producto que se busca comprar tiene valor mayor al de la moneda ingresada
  * */
-    public Producto comprarProducto(Moneda m, int cual) throws PagoIncorrectoException, PagoInsuficienteException{
+    public Producto comprarProducto(Moneda m, int cual) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException {
         if (m == null){
             throw new PagoIncorrectoException("No se ha insertado ninguna moneda\n");
         }
@@ -73,7 +73,7 @@ public class Expendedor{
 /**Retirar el vuelto en caso de haber.
  * @return Las monedas de vuelto que pueda haber
  * */
-    public Moneda getVuelto(){
+    public Moneda getVuelto() throws NoHayProductoException {
         return monVu.getElemento();
     }
 }

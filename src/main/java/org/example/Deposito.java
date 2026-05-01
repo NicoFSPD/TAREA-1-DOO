@@ -33,7 +33,9 @@ public class Deposito<T>{
     public T getElemento() throws NoHayProductoException {
         if (al.size() == 0){
             throw new NoHayProductoException("Actualmente no hay ningun producto en el deposito.");
+        }else {
+            return al.remove(0);
         }
-        return al.remove(0);
+
     }
 }
