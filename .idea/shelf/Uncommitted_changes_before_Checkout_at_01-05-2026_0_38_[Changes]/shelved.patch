@@ -1,0 +1,406 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b07f5215-2730-486f-ba5e-f44a1389a84d\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Deposito.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Deposito.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda100.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda100.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda1000.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda1000.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda1500.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda1500.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda500.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Moneda500.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/NoHayProductoException.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/NoHayProductoException.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/PagoIncorrectoException.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/PagoIncorrectoException.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/PagoInsuficienteException.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/PagoInsuficienteException.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"DanielLopez\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;NicoFSPD&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/NicoFSPD/TAREA-1-DOO.git&quot;,\r\n    &quot;accountId&quot;: &quot;823cfd21-b002-43aa-9405-0b4d04985bd0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3CguPcMXsS6442pUGRXUfQGvJTZ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"Merging main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.17773438\",\r\n    \"project.structure.side.proportion\": \"0.2\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b07f5215-2730-486f-ba5e-f44a1389a84d\" name=\"Changes\" comment=\"\" />\r\n      <created>1776820535552</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1776820535552</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ b/.idea/workspace.xml	(date 1777609693786)
+@@ -4,17 +4,15 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="">
++    <list default="true" id="81d34b71-8efa-4f1d-b304-e91128b8eb3b" name="Changes" comment="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Deposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Deposito.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda100.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda1000.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda1500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda1500.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda500.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NoHayProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NoHayProductoException.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PagoIncorrectoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PagoIncorrectoException.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PagoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PagoInsuficienteException.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda100.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda1000.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda1500.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda500.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,22 +23,17 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="Class" />
+-        <option value="Enum" />
++        <option value="Exception" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="DanielLopez" />
+-      </map>
+-    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+   &quot;lastFilter&quot;: {
+     &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;NicoFSPD&quot;
++    &quot;assignee&quot;: &quot;Cangliop84&quot;
+   }
+ }</component>
+   <component name="GithubPullRequestsUISettings">{
+@@ -50,34 +43,69 @@
+   }
+ }</component>
+   <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 1
++  &quot;associatedIndex&quot;: 3
+ }</component>
+   <component name="ProjectId" id="3CguPcMXsS6442pUGRXUfQGvJTZ" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Main.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "Merging main",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.17773438",
+-    "project.structure.side.proportion": "0.2"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/home/edu/Desktop/POO/TAREA-1-DOO&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="" />
+-      <created>1776820535552</created>
++      <changelist id="81d34b71-8efa-4f1d-b304-e91128b8eb3b" name="Changes" comment="" />
++      <created>1776863361678</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1776820535552</updated>
++      <updated>1776863361678</updated>
++    </task>
++    <task id="LOCAL-00001" summary="Movilización de carpeta opcion">
++      <option name="closed" value="true" />
++      <created>1776863569196</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1776863569196</updated>
+     </task>
++    <task id="LOCAL-00002" summary="Separacion de clases de codigo anterior PA3P">
++      <option name="closed" value="true" />
++      <created>1776864146407</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1776864146407</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Creacion de la clase &quot;Excepciones.java&quot;">
++      <option name="closed" value="true" />
++      <created>1776864508376</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1776864508376</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException">
++      <option name="closed" value="true" />
++      <created>1776865786404</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1776865786404</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Movilización de carpeta opcion" />
++    <MESSAGE value="Separacion de clases de codigo anterior PA3P" />
++    <MESSAGE value="Creacion de la clase &quot;Excepciones.java&quot;" />
++    <MESSAGE value="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException" />
++    <option name="LAST_COMMIT_MESSAGE" value="Creacion de las excepciones PagoIncorrectoException, NoHayProductoException y PagoInsuficienteException" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16__Changes_.xml	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ /dev/null	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]" date="1776993401763" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Merge at 23-04-2026 21:16 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Merge_at_23-04-2026_21_16_[Changes]/shelved.patch	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ /dev/null	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
+@@ -1,53 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b07f5215-2730-486f-ba5e-f44a1389a84d\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;NicoFSPD&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/NicoFSPD/TAREA-1-DOO.git&quot;,\r\n    &quot;accountId&quot;: &quot;823cfd21-b002-43aa-9405-0b4d04985bd0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3CguPcMXsS6442pUGRXUfQGvJTZ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.17773438\",\r\n    \"project.structure.side.proportion\": \"0.2\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b07f5215-2730-486f-ba5e-f44a1389a84d\" name=\"Changes\" comment=\"\" />\r\n      <created>1776820535552</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1776820535552</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 8de91dab3015a0e481550248af60721b066c84dd)
+-+++ b/.idea/workspace.xml	(date 1776993312502)
+-@@ -4,9 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--    </list>
+-+    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -43,19 +41,19 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "Application.Main.executor": "Run",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "RunOnceActivity.git.unshallow": "true",
+--    "git-widget-placeholder": "main",
+--    "kotlin-language-version-configured": "true",
+--    "last_opened_file_path": "C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO",
+--    "project.structure.last.edited": "Modules",
+--    "project.structure.proportion": "0.17773438",
+--    "project.structure.side.proportion": "0.2"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO&quot;,
+-+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-+    &quot;project.structure.proportion&quot;: &quot;0.17773438&quot;,
+-+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="TaskManager">
+-     <task active="true" id="Default" summary="Default task">
+-       <changelist id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="" />
+Index: src/main/java/org/example/Moneda500.java
+===================================================================
+diff --git a/src/main/java/org/example/Moneda500.java b/src/main/java/org/example/Moneda500.java
+deleted file mode 100644
+--- a/src/main/java/org/example/Moneda500.java	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ /dev/null	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
+@@ -1,25 +0,0 @@
+-package org.example;
+-
+-/**
+- * Subclase que representa una moneda con valor de $500.
+- * @author Daniel Lopez
+- * @version 1, 30 de abril de 2026
+- */
+-public class Moneda500 extends Moneda {
+-    /**
+-     * Constructor para crear una Moneda de $500.
+-     */
+-    public Moneda500() {
+-        super();
+-    }
+-
+-    /**
+-     * Obtiene el valor de esta moneda.
+-     *
+-     * @return El valor entero 500.
+-     */
+-    @Override
+-    public int getValor() {
+-        return 500;
+-    }
+-}
+Index: src/main/java/org/example/Moneda.java
+===================================================================
+diff --git a/src/main/java/org/example/Moneda.java b/src/main/java/org/example/Moneda.java
+deleted file mode 100644
+--- a/src/main/java/org/example/Moneda.java	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ /dev/null	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
+@@ -1,51 +0,0 @@
+-package org.example;
+-
+-/**
+- * Clase abstracta que representa una Moneda en el sistema del expendedor.
+- * Implementa la interfaz Comparable para permitir el ordenamiento de monedas por su valor.
+- * @author Daniel Lopez
+- * @version 1, 30 de abril de 2026
+- */
+-public abstract class Moneda implements Comparable<Moneda> {
+-    /**
+-     * Constructor por defecto de la clase Moneda.
+-     */
+-    public Moneda() {
+-    }
+-
+-    /**
+-     * Obtiene la referencia de la serie de la moneda.
+-     * @return La instancia actual de la moneda.
+-     */
+-    public Moneda getSerie() {
+-        return this;
+-    }
+-
+-    /**
+-     * Metodo abstracto para obtener el valor de la moneda.
+-     *
+-     * @return El valor de la moneda como un entero.
+-     */
+-    public abstract int getValor();
+-
+-    /**
+-     * Compara esta moneda con otra basandose en su valor.
+-     * Requiere a la interfaz Comparable para el uso de metodos de ordenamiento.
+-     * @param otraMoneda La moneda con la que se va a comparar.
+-     * @return Un valor negativo, cero o positivo si esta moneda es menor, igual o mayor que la moneda comparada.
+-     */
+-    @Override
+-    public int compareTo(Moneda otraMoneda) {
+-        return Integer.compare(this.getValor(), otraMoneda.getValor());
+-    }
+-
+-    /**
+-     * Devuelve una representacion en cadena de la moneda, incluyendo su valor y serie.
+-     * @return String con la descripcion de la moneda.
+-     */
+-    @Override
+-    public String toString() {
+-        return "Moneda de " + this.getValor() + " (Serie: " + this.hashCode() + ")";
+-    }
+-}
+-
+Index: src/main/java/org/example/Moneda1000.java
+===================================================================
+diff --git a/src/main/java/org/example/Moneda1000.java b/src/main/java/org/example/Moneda1000.java
+deleted file mode 100644
+--- a/src/main/java/org/example/Moneda1000.java	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ /dev/null	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
+@@ -1,25 +0,0 @@
+-package org.example;
+-
+-/**
+- * Subclase que representa una moneda con valor de $1000.
+- * @author Daniel Lopez
+- * @version 1, 30 de abril de 2026
+- */
+-public class Moneda1000 extends Moneda {
+-    /**
+-     * Constructor para crear una Moneda de $1000.
+-     */
+-    public Moneda1000() {
+-        super();
+-    }
+-
+-    /**
+-     * Obtiene el valor de esta moneda.
+-     *
+-     * @return El valor entero 1000.
+-     */
+-    @Override
+-    public int getValor() {
+-        return 1000;
+-    }
+-}
+Index: src/main/java/org/example/Moneda100.java
+===================================================================
+diff --git a/src/main/java/org/example/Moneda100.java b/src/main/java/org/example/Moneda100.java
+deleted file mode 100644
+--- a/src/main/java/org/example/Moneda100.java	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ /dev/null	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
+@@ -1,25 +0,0 @@
+-package org.example;
+-
+-/**
+- * Subclase que representa una moneda con valor de $100.
+- * @author Daniel Lopez
+- * @version 1, 30 de abril de 2026
+- */
+-public class Moneda100 extends Moneda {
+-    /**
+-     * Constructor para crear una Moneda de $100.
+-     */
+-    public Moneda100() {
+-        super();
+-    }
+-
+-    /**
+-     * Obtiene el valor de esta moneda.
+-     *
+-     * @return El valor entero 100.
+-     */
+-    @Override
+-    public int getValor() {
+-        return 100;
+-    }
+-}
+Index: src/main/java/org/example/Moneda1500.java
+===================================================================
+diff --git a/src/main/java/org/example/Moneda1500.java b/src/main/java/org/example/Moneda1500.java
+deleted file mode 100644
+--- a/src/main/java/org/example/Moneda1500.java	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
++++ /dev/null	(revision c0bed3ff28f4435bd9d6c6a38750c4fc50691a46)
+@@ -1,25 +0,0 @@
+-package org.example;
+-
+-/**
+- * Subclase que representa una moneda con valor de $1500.
+- * @author Daniel Lopez
+- * @version 1, 30 de abril de 2026
+- */
+-public class Moneda1500 extends Moneda {
+-    /**
+-     * Constructor para crear una Moneda de $1500.
+-     */
+-    public Moneda1500() {
+-        super();
+-    }
+-
+-    /**
+-     * Obtiene el valor de esta moneda.
+-     *
+-     * @return El valor entero 1500.
+-     */
+-    @Override
+-    public int getValor() {
+-        return 1500;
+-    }
+-}

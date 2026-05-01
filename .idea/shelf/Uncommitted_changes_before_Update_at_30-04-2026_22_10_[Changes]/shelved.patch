@@ -1,0 +1,153 @@
+Index: src/main/java/org/example/Moneda1000.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Moneda1000 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Moneda1000.java b/src/main/java/org/example/Moneda1000.java
+--- a/src/main/java/org/example/Moneda1000.java	(revision d7209760184f93d4c4f545f75102d7e86bfb26a4)
++++ b/src/main/java/org/example/Moneda1000.java	(date 1777601138313)
+@@ -1,4 +1,12 @@
+ package org.example;
+ 
+-public class Moneda1000 {
++class Moneda1000 extends Moneda {
++    public Moneda1000() {
++        super();
++    }
++
++    @Override
++    public int getValor() {
++        return 1000;
++    }
+ }
+Index: src/main/java/org/example/Moneda.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic abstract class Moneda implements Comparable<Moneda> {\r\n    public Moneda() {\r\n    }\r\n\r\n    public Moneda getSerie() {\r\n        return this;\r\n    }\r\n\r\n    public abstract int getValor();\r\n\r\n    @Override\r\n    public int compareTo(Moneda otraMoneda) {\r\n        return Integer.compare(this.getValor(), otraMoneda.getValor());\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Moneda de \" + this.getValor() + \" (Serie: \" + this.hashCode() + \")\";\r\n    }\r\n}\r\n\r\nclass Moneda1500 extends Moneda {\r\n    public Moneda1500() {\r\n        super();\r\n    }\r\n\r\n    @Override\r\n    public int getValor() {\r\n        return 1500;\r\n    }\r\n}\r\n\r\nclass Moneda1000 extends Moneda {\r\n    public Moneda1000() {\r\n        super();\r\n    }\r\n\r\n    @Override\r\n    public int getValor() {\r\n        return 1000;\r\n    }\r\n}\r\n\r\nclass Moneda500 extends Moneda {\r\n    public Moneda500() {\r\n        super();\r\n    }\r\n\r\n    @Override\r\n    public int getValor() {\r\n        return 500;\r\n    }\r\n}\r\n\r\nclass Moneda100 extends Moneda {\r\n    public Moneda100() {\r\n        super();\r\n    }\r\n\r\n    @Override\r\n    public int getValor() {\r\n        return 100;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Moneda.java b/src/main/java/org/example/Moneda.java
+--- a/src/main/java/org/example/Moneda.java	(revision d7209760184f93d4c4f545f75102d7e86bfb26a4)
++++ b/src/main/java/org/example/Moneda.java	(date 1777601138310)
+@@ -21,46 +21,3 @@
+     }
+ }
+ 
+-class Moneda1500 extends Moneda {
+-    public Moneda1500() {
+-        super();
+-    }
+-
+-    @Override
+-    public int getValor() {
+-        return 1500;
+-    }
+-}
+-
+-class Moneda1000 extends Moneda {
+-    public Moneda1000() {
+-        super();
+-    }
+-
+-    @Override
+-    public int getValor() {
+-        return 1000;
+-    }
+-}
+-
+-class Moneda500 extends Moneda {
+-    public Moneda500() {
+-        super();
+-    }
+-
+-    @Override
+-    public int getValor() {
+-        return 500;
+-    }
+-}
+-
+-class Moneda100 extends Moneda {
+-    public Moneda100() {
+-        super();
+-    }
+-
+-    @Override
+-    public int getValor() {
+-        return 100;
+-    }
+-}
+Index: src/main/java/org/example/Moneda100.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Moneda100 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Moneda100.java b/src/main/java/org/example/Moneda100.java
+--- a/src/main/java/org/example/Moneda100.java	(revision d7209760184f93d4c4f545f75102d7e86bfb26a4)
++++ b/src/main/java/org/example/Moneda100.java	(date 1777601138312)
+@@ -1,4 +1,12 @@
+ package org.example;
+ 
+-public class Moneda100 {
++class Moneda100 extends Moneda {
++    public Moneda100() {
++        super();
++    }
++
++    @Override
++    public int getValor() {
++        return 100;
++    }
+ }
+Index: src/main/java/org/example/Moneda1500.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Moneda1500 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Moneda1500.java b/src/main/java/org/example/Moneda1500.java
+--- a/src/main/java/org/example/Moneda1500.java	(revision d7209760184f93d4c4f545f75102d7e86bfb26a4)
++++ b/src/main/java/org/example/Moneda1500.java	(date 1777601138315)
+@@ -1,4 +1,12 @@
+ package org.example;
+ 
+-public class Moneda1500 {
++class Moneda1500 extends Moneda {
++    public Moneda1500() {
++        super();
++    }
++
++    @Override
++    public int getValor() {
++        return 1500;
++    }
+ }
+Index: src/main/java/org/example/Moneda500.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Moneda500 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Moneda500.java b/src/main/java/org/example/Moneda500.java
+--- a/src/main/java/org/example/Moneda500.java	(revision d7209760184f93d4c4f545f75102d7e86bfb26a4)
++++ b/src/main/java/org/example/Moneda500.java	(date 1777601138316)
+@@ -1,4 +1,12 @@
+ package org.example;
+ 
+-public class Moneda500 {
++class Moneda500 extends Moneda {
++    public Moneda500() {
++        super();
++    }
++
++    @Override
++    public int getValor() {
++        return 500;
++    }
+ }
