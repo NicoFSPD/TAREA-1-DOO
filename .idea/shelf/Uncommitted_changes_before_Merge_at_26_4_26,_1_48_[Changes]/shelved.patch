@@ -1,0 +1,108 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b07f5215-2730-486f-ba5e-f44a1389a84d\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"Enum\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;NicoFSPD&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/NicoFSPD/TAREA-1-DOO.git&quot;,\n    &quot;accountId&quot;: &quot;823cfd21-b002-43aa-9405-0b4d04985bd0&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 1\n}</component>\n  <component name=\"ProjectId\" id=\"3CguPcMXsS6442pUGRXUfQGvJTZ\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.Main.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.17773438\",\n    \"project.structure.side.proportion\": \"0.2\"\n  }\n}]]></component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b07f5215-2730-486f-ba5e-f44a1389a84d\" name=\"Changes\" comment=\"\" />\n      <created>1776820535552</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1776820535552</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4710d5df8fafc4cd96f60001c08e14045c1cea34)
++++ b/.idea/workspace.xml	(date 1777182511589)
+@@ -4,21 +4,13 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="">
++    <list default="true" id="6ec52ee5-6c30-44e1-b8ee-0c951c9158d6" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-        <option value="Enum" />
+-      </list>
+-    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -26,17 +18,18 @@
+   <component name="GitHubPullRequestSearchHistory">{
+   &quot;lastFilter&quot;: {
+     &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;NicoFSPD&quot;
++    &quot;assignee&quot;: &quot;eduearm&quot;
+   }
+ }</component>
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/NicoFSPD/TAREA-1-DOO.git&quot;,
+-    &quot;accountId&quot;: &quot;823cfd21-b002-43aa-9405-0b4d04985bd0&quot;
++    &quot;accountId&quot;: &quot;d7a45df3-ed1e-441e-92d6-9e8eea4a8a44&quot;
+   }
+ }</component>
+   <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 1
++  &quot;customColor&quot;: &quot;&quot;,
++  &quot;associatedIndex&quot;: 4
+ }</component>
+   <component name="ProjectId" id="3CguPcMXsS6442pUGRXUfQGvJTZ" />
+   <component name="ProjectViewState">
+@@ -45,25 +38,43 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "Application.Main.executor": "Run",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
++    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
++    "codeWithMe.voiceChat.enabledByDefault": "false",
+     "git-widget-placeholder": "main",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/Lineg/Desktop/UDEC/PROGRAMACION/Java/TAREA_1/TAREA-1-DOO",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.17773438",
+-    "project.structure.side.proportion": "0.2"
++    "last_opened_file_path": "/home/edu/Desktop/POO/TAREA-1-DOO",
++    "nodejs_package_manager_path": "npm",
++    "onboarding.tips.debug.path": "/home/edu/Desktop/tarea1POO/TAREA-1-DOO/src/main/java/org/example/Main.java",
++    "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="" />
+-      <created>1776820535552</created>
++      <changelist id="6ec52ee5-6c30-44e1-b8ee-0c951c9158d6" name="Changes" comment="" />
++      <created>1776819513425</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1776820535552</updated>
++      <updated>1776819513425</updated>
++      <workItem from="1776819514857" duration="1557000" />
++      <workItem from="1777157878336" duration="695000" />
+     </task>
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
++          <line>13</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file
