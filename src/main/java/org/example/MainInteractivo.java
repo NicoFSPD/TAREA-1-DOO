@@ -3,7 +3,7 @@ package org.example;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-class Main{
+class MainInteractivo {
     public static void main(String[] args) throws NoHayProductoException, PagoInsuficienteException, PagoIncorrectoException {
         Scanner scanner = new Scanner(System.in);
 
