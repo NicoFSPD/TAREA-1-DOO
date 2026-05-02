@@ -22,6 +22,7 @@ class MainInteractivo {
             int cursor = 0;
 
             System.out.println("1. COMPRAR\n2. VER VUELTO\n3. PRODUCTO ACTUAL\n4. CREAR MONEDA\n5. SALIR");
+            System.out.println("Indique una de las acciones");
 
             boolean valido = false;
 
@@ -38,6 +39,23 @@ class MainInteractivo {
                     System.out.println("Debe ingresar una de las opciones");
                     scanner.nextLine();
                 }
+            }
+            switch (cursor){
+                // 1 (COMPRAR)
+                case 1:
+                    System.out.println("Ingrese el ID del producto:");
+                    try{
+                        cual = scanner.nextInt();    //Mejorar la validacion posteriormente
+                        Opcion Eleccion = null;
+
+                        for (Opcion op : Opcion.values()){
+                            if(cual == op.ID) {Eleccion = op; break;}
+                        }
+                        COM = new Comprador(m, cual, EXP);
+                    } catch (NoHayProductoException | PagoInsuficienteException | PagoIncorrectoException ex){
+                        System.out.println(ex.getMessage());
+                    }
+
             }
         }
     }
