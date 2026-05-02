@@ -4,25 +4,32 @@ public class Comprador{
     private String sonido;
     private int vuelto;
 
-    public Comprador(Moneda m, int cualProducto, Expendedor exp) throws NoHayProductoException, PagoInsuficienteException, PagoIncorrectoException {
+    public Comprador(Moneda m, int cualProducto, Expendedor exp) {
         this.vuelto = 0;
+        this.sonido = null;
 
-        Producto p = exp.comprarProducto(m, cualProducto);
+        try {
 
-        if (p != null){
-            this.sonido = p.consumir();
-        } else {
-            this.sonido = null;
-        }
+            Producto p = exp.comprarProducto(m, cualProducto);
+            if (p != null) {
+                this.sonido = p.consumir();
+            }
 
-        Moneda monedaVuelto = exp.getVuelto();
-        while (monedaVuelto != null){
-            this.vuelto += monedaVuelto.getValor();
-            try{
-                monedaVuelto = exp.getVuelto();
-            } catch (NoHayProductoException ex){ monedaVuelto = null;}
+        } catch (PagoIncorrectoException | PagoInsuficienteException | NoHayProductoException e) {
+            System.out.println("error, no se pudo realizar la compra: " + e.getMessage());
+        } finally {
+            boolean hayVuelto = true;
+            while (hayVuelto) {
+                try {
+                    Moneda monedaVuelto = exp.getVuelto();
+                    this.vuelto += monedaVuelto.getValor();
+                } catch (NoHayProductoException ex) {
+                    hayVuelto = false;
+                }
+            }
         }
     }
+
 
     public int cuantoVuelto(){
         return this.vuelto;
