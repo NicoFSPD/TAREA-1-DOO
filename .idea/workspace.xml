@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="feat: Primera parte del main interactivo">
+    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="feat: caso 1 completado y agregar precision al primer print">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainInteractivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainInteractivo.java" afterDir="false" />
     </list>
@@ -79,11 +79,38 @@
       <option name="project" value="LOCAL" />
       <updated>1777677758066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: caso 1 completado y agregar precision al primer print">
+      <option name="closed" value="true" />
+      <created>1777684515654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777684515654</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: caso 2">
+      <option name="closed" value="true" />
+      <created>1777685072860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777685072860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Caso 3">
+      <option name="closed" value="true" />
+      <created>1777685669888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777685669888</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Primera parte del main interactivo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Primera parte del main interactivo" />
+    <MESSAGE value="feat: caso 1 completado y agregar precision al primer print" />
+    <MESSAGE value="feat: caso 2" />
+    <MESSAGE value="feat: Caso 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Caso 3" />
   </component>
 </project>

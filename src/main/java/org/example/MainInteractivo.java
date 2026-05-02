@@ -7,6 +7,7 @@ class MainInteractivo {
     public static void main(String[] args) throws NoHayProductoException, PagoInsuficienteException, PagoIncorrectoException {
         Scanner scanner = new Scanner(System.in);
 
+
         Expendedor EXP = new Expendedor(5);
         Comprador COM = null;
         Moneda m = null;
@@ -41,6 +42,7 @@ class MainInteractivo {
                 }
             }
             switch (cursor){
+
                 // 1 (COMPRAR)
                 case 1:
                     System.out.println("Ingrese el ID del producto:");
@@ -69,6 +71,22 @@ class MainInteractivo {
                     } else {
                         System.out.println("No hay nada");
                     }
+
+                // 4 (CREAR MONEDA)
+                case 4:
+                    System.out.println("1 ===> 100\n2 ===> 500\n3 ===> 1000\n4 ===> 1500");
+                    System.out.println("Elija la moneda a crear: ");
+
+                    cual = scanner.nextInt();
+
+                    if(cual == 1) m = new Moneda100();
+                    if(cual == 2) m = new Moneda500();
+                    if(cual == 3) m = new Moneda1000();
+                    if(cual == 4) m = new Moneda1500();
+
+                // 5 (SALIR)
+                case 5:
+                    return;
             }
         }
     }
