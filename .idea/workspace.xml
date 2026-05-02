@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="feat: caso 1 completado y agregar precision al primer print">
+    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="feat: Casos 4 y 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainInteractivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainInteractivo.java" afterDir="false" />
     </list>
@@ -103,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777685669888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Casos 4 y 5">
+      <option name="closed" value="true" />
+      <created>1777689146893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777689146893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +119,7 @@
     <MESSAGE value="feat: caso 1 completado y agregar precision al primer print" />
     <MESSAGE value="feat: caso 2" />
     <MESSAGE value="feat: Caso 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Caso 3" />
+    <MESSAGE value="feat: Casos 4 y 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Casos 4 y 5" />
   </component>
 </project>

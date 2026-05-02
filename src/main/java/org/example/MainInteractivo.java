@@ -57,12 +57,14 @@ class MainInteractivo {
                     } catch (NoHayProductoException | PagoInsuficienteException | PagoIncorrectoException ex){
                         System.out.println(ex.getMessage());
                     }
+                    break;
 
                 // 2 (VER VUELTO)
                 case 2:
                     System.out.print("Vuelto actual: ");
                     if (COM != null) System.out.println(COM.cuantoVuelto());
                     else System.out.println(0);
+                    break;
 
                 // 3 (PRODUCTO ACTUAL)
                 case 3:
@@ -71,6 +73,7 @@ class MainInteractivo {
                     } else {
                         System.out.println("No hay nada");
                     }
+                    break;
 
                 // 4 (CREAR MONEDA)
                 case 4:
@@ -83,6 +86,7 @@ class MainInteractivo {
                     if(cual == 2) m = new Moneda500();
                     if(cual == 3) m = new Moneda1000();
                     if(cual == 4) m = new Moneda1500();
+                    break;
 
                 // 5 (SALIR)
                 case 5:
