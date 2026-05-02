@@ -47,18 +47,19 @@ class MainInteractivo {
                 case 1:
                     for(Opcion op : Opcion.values()) {System.out.println("("+op.ID+") ---> "+ op +" ($"+ op.precio+")");}
                     System.out.println("Ingrese el ID del producto:");
-                    try{
                         cual = scanner.nextInt();    //Mejorar la validacion posteriormente
                         Opcion Eleccion = null;
 
-                        for (Opcion op : Opcion.values()){
-                            if(cual == op.ID) {Eleccion = op; break;}
+                        for (Opcion op : Opcion.values()) {
+                            if (cual == op.ID) {
+                                Eleccion = op;
+                                break;
+                            }
                         }
                         COM = new Comprador(m, cual, EXP);
-                    } catch (NoHayProductoException | PagoInsuficienteException | PagoIncorrectoException ex){
-                        System.out.println(ex.getMessage());
-                    }
-                    break;
+                        m = null;
+                        break;
+
 
                 // 2 (VER VUELTO)
                 case 2:
