@@ -45,6 +45,7 @@ class MainInteractivo {
 
                 // 1 (COMPRAR)
                 case 1:
+                    for(Opcion op : Opcion.values()) {System.out.println("("+op.ID+") ---> "+ op +" ($"+ op.precio+")");}
                     System.out.println("Ingrese el ID del producto:");
                     try{
                         cual = scanner.nextInt();    //Mejorar la validacion posteriormente
