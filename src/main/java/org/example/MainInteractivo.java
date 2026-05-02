@@ -56,6 +56,11 @@ class MainInteractivo {
                         System.out.println(ex.getMessage());
                     }
 
+                // 2 (VER VUELTO)
+                case 2:
+                    System.out.print("Vuelto actual: ");
+                    if (COM != null) System.out.println(COM.cuantoVuelto());
+                    else System.out.println(0);
             }
         }
     }
