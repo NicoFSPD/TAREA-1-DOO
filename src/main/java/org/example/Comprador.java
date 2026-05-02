@@ -18,7 +18,9 @@ public class Comprador{
         Moneda monedaVuelto = exp.getVuelto();
         while (monedaVuelto != null){
             this.vuelto += monedaVuelto.getValor();
-            monedaVuelto = exp.getVuelto();
+            try{
+                monedaVuelto = exp.getVuelto();
+            } catch (NoHayProductoException ex){ monedaVuelto = null;}
         }
     }
 

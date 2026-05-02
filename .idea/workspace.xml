@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="feat: Casos 4 y 5">
+    <list default="true" id="b07f5215-2730-486f-ba5e-f44a1389a84d" name="Changes" comment="fix: Aislar cada caso de switch/case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Comprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Expendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainInteractivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainInteractivo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -111,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777689146893</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: Aislar cada caso de switch/case">
+      <option name="closed" value="true" />
+      <created>1777690005255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777690005255</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: mover tabla de botones y precios a un lugar mas coherente">
+      <option name="closed" value="true" />
+      <created>1777690568870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777690568870</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +138,18 @@
     <MESSAGE value="feat: caso 2" />
     <MESSAGE value="feat: Caso 3" />
     <MESSAGE value="feat: Casos 4 y 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Casos 4 y 5" />
+    <MESSAGE value="fix: Aislar cada caso de switch/case" />
+    <MESSAGE value="refactor: mover tabla de botones y precios a un lugar mas coherente" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: mover tabla de botones y precios a un lugar mas coherente" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.example.NoHayProductoException" package="org.example" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
