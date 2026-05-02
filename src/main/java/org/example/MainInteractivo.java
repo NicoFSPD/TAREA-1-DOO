@@ -61,6 +61,14 @@ class MainInteractivo {
                     System.out.print("Vuelto actual: ");
                     if (COM != null) System.out.println(COM.cuantoVuelto());
                     else System.out.println(0);
+
+                // 3 (PRODUCTO ACTUAL)
+                case 3:
+                    if (COM != null){
+                        System.out.println("Haz consumido un/una"+COM.queConsumiste());
+                    } else {
+                        System.out.println("No hay nada");
+                    }
             }
         }
     }
