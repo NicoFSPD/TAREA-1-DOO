@@ -14,7 +14,7 @@ public class Expendedor{
     private Deposito<Producto> super8;
     private Deposito<Moneda> monVu;
 /**Constructor para inicializar los contenedores
- * @param numProductos cantidad de productos por contenedor
+ * @param numProductos cantidad de productos pquiero que modifior contenedor
  * */
     public Expendedor(int numProductos){
 
@@ -55,22 +55,32 @@ public class Expendedor{
         else if(cual == Opcion.SUPER8.ID) {precio = Opcion.SUPER8.precio; D = super8;}
         else{
             monVu.addElemento(m);
-            return null;
+            throw new NoHayProductoException("el producto no existe dentro del expendedor");
         }
 
         if (m.getValor() >= precio){
+            Producto productoExtraido = null;
+
+
+            try {
+                productoExtraido = D.getElemento();
+            } catch (NoHayProductoException e){
+                monVu.addElemento(m);
+                throw e;
+            }
             int vueltoTotal = m.getValor() - precio;
             while (vueltoTotal > 0) {
                 monVu.addElemento(new Moneda100());
                 vueltoTotal -= 100;
             }
-            return D.getElemento();
+            return productoExtraido;
         } else{
             monVu.addElemento(m);
             throw new PagoInsuficienteException("El producto que quieres comprar tiene un valor mayor a lo que estás pagando");
         }
     }
 /**Retirar el vuelto en caso de haber.
+ * @throws NoHayProductoException si es que el deposito de vuelto esta vacio
  * @return Las monedas de vuelto que pueda haber
  * */
     public Moneda getVuelto() throws NoHayProductoException {
