@@ -47,13 +47,12 @@ class MainInteractivo {
         /**
          * Despliegue inicial de productos y precios segun la enumeracion
          */
-        for(Opcion op : Opcion.values()) {System.out.println("("+op.ID+") ---> "+ op +" ($"+ op.precio+")");}
 
         while (true){
             int cual = 0;
             int cursor = 0;
 
-            System.out.println("1. COMPRAR\n2. VER VUELTO\n3. PRODUCTO ACTUAL\n4. CREAR MONEDA\n5. SALIR");
+            System.out.println("\t1. COMPRAR\n\t2. VER VUELTO\n\t3. PRODUCTO ACTUAL\n\t4. CREAR MONEDA\n\t5. SALIR");
             System.out.println("Indique una de las acciones");
 
             boolean valido = false;
@@ -79,16 +78,25 @@ class MainInteractivo {
                  * Caso 1 (comprar)
                  */
                 case 1:
-                    for(Opcion op : Opcion.values()) {System.out.println("("+op.ID+") ---> "+ op +" ($"+ op.precio+")");}
+                    System.out.println("------------| PRODUCTOS |------------\n");
+                    for(Opcion op : Opcion.values()) {System.out.println("\t("+op.ID+") ---> "+ op +" ($"+ op.precio+")");}
+                    System.out.println("_____________________________________");
+                    System.out.println("Para volver al menu principal, ingrese 0");
                     System.out.println("Ingrese el ID del producto:");
-                        cual = scanner.nextInt();
-                        Opcion Eleccion = null;
+                        try{
+                            cual = scanner.nextInt();
+                            Opcion Eleccion = null;
+                            if(cual == 0) break;
 
-                        for (Opcion op : Opcion.values()) {
-                            if (cual == op.ID) {
-                                Eleccion = op;
-                                break;
+                            for (Opcion op : Opcion.values()) {
+                                if (cual == op.ID) {
+                                    Eleccion = op;
+                                    break;
+                                }
                             }
+                        } catch(InputMismatchException ex){
+                            System.out.println("Debe ingresar un ID valido");
+                            break;
                         }
                         COM = new Comprador(m, cual, EXP);
                         m = null;
@@ -100,8 +108,8 @@ class MainInteractivo {
                  */
                 case 2:
                     System.out.print("Vuelto actual: ");
-                    if (COM != null) System.out.println(COM.cuantoVuelto());
-                    else System.out.println(0);
+                    if (COM != null) System.out.println("$"+COM.cuantoVuelto());
+                    else System.out.println("$"+0);
                     break;
 
                 /**
@@ -109,7 +117,7 @@ class MainInteractivo {
                  */
                 case 3:
                     if (COM != null){
-                        System.out.println("Haz consumido un/una"+COM.queConsumiste());
+                        System.out.println("Haz consumido un/una: "+COM.queConsumiste());
                     } else {
                         System.out.println("No hay nada");
                     }
@@ -119,15 +127,24 @@ class MainInteractivo {
                  * Caso 4 (crear moneda)
                  */
                 case 4:
-                    System.out.println("1 ===> 100\n2 ===> 500\n3 ===> 1000\n4 ===> 1500");
-                    System.out.println("Elija la moneda a crear: ");
+                    System.out.println("1 ===> 100\n2 ===> 500\n3 ===> 1000\n4 ===> 1500\n5 ===> Volver");
+                    System.out.print("Elija la moneda a crear\n: ");
 
-                    cual = scanner.nextInt();
+                    try{
+                        cual = scanner.nextInt();
 
-                    if(cual == 1) m = new Moneda100();
-                    if(cual == 2) m = new Moneda500();
-                    if(cual == 3) m = new Moneda1000();
-                    if(cual == 4) m = new Moneda1500();
+                        if(cual == 1) m = new Moneda100();
+                        if(cual == 2) m = new Moneda500();
+                        if(cual == 3) m = new Moneda1000();
+                        if(cual == 4) m = new Moneda1500();
+                        else {
+                            System.out.println("Ingrese una opcion valida");
+                            break;
+                        }
+                    }catch (InputMismatchException ex){
+                        System.out.println("Debe ingresar una opcion");
+                        break;
+                    }
                     break;
 
                 /**
